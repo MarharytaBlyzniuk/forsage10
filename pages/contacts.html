@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Регистрация</title>
+</head>
+<body>
+<header>
+    <h1 class="header">Регистрация</h1>
+    <nav class="header_nav">
+        <ul class="header_nav-list">
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="../index.html"
+                >Главная страница</a>
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="../pages/gallery.html"
+                >Все части форсажа</a
+                >
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="../pages/articles.html">Отзывы</a>
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="../pages/about.html">Актерский состав</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main class="main">
+    <h2 class="main_head2">У нас на сайте Вы можете приоберсти билеты в кинотеатр на открытом воздухе. <br>Для этого Вам
+        необходимо пройти
+        регистрацию и оставить заявку.
+    </h2>
+    <form action="https://fom.in.ua/echo">
+        <fieldset class="main__form">
+            <legend>Личная информация</legend>
+            <label class="form_label_cont" for="name">Имя</label>
+            <input type="text" id="name" name="name"> <br>
+
+            <label class="form_label_cont" for="email">Электронная почта</label>
+            <input type="text" id="email" name="email"> <br>
+
+            <label class="form_label_cont" for="number">Контактный телефон</label>
+            <input type="text" id="number" name="number">
+
+        </fieldset>
+
+        <fieldset class="main__form">
+            <legend>Выберите какой фильм хотели бы посмотреть</legend>
+
+            <input type="radio" id="forsag1" name="forsag" value="F1"/>
+            <label class="form_label_cont" for="forsag1">Форсаж1</label><br/>
+
+            <input type="radio" id="forsag2" name="forsag" value="F2"/>
+            <label class="form_label_cont" for="forsag2">Форсаж2</label><br/>
+
+            <input type="radio" id="forsag3" name="forsag" value="F3"/>
+            <label class="form_label_cont" for="forsag3">Форсаж3</label><br/>
+
+            <input type="radio" id="forsag4" name="forsag" value="F4"/>
+            <label class="form_label_cont" for="forsag4">Форсаж4</label><br/>
+
+            <input type="radio" id="forsag5" name="forsag" value="F5"/>
+            <label class="form_label_cont" for="forsag5">Форсаж5</label><br/>
+
+            <input type="radio" id="forsag6" name="forsag" value="F6"/>
+            <label class="form_label_cont" for="forsag6">Форсаж6</label><br/>
+
+            <input type="radio" id="forsag7" name="forsag" value="F7"/>
+            <label class="form_label_cont" for="forsag7">Форсаж7</label><br/>
+
+            <input type="radio" id="forsag8" name="forsag" value="F8"/>
+            <label class="form_label_cont" for="forsag8">Форсаж8</label><br/>
+
+            <input type="radio" id="forsag9" name="forsag" value="F9"/>
+            <label class="form_label_cont" for="forsag9">Форсаж9</label><br/>
+
+            <input type="radio" id="forsag10" name="forsag" value="F10"/>
+            <label class="form_label_cont" for="forsag10">Форсаж10</label><br/>
+        </fieldset>
+        <button>Отправить</button>
+    </form>
+</main>
+
+<footer class="footer">2024,Marharyta Blyzniuk</footer>
+</body>
+</html>

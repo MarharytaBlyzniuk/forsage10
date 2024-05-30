@@ -1,0 +1,226 @@
+body {
+    background: rgb(58, 62, 52);
+    background: linear-gradient(
+            90deg,
+            rgba(58, 62, 52, 1) 31%,
+            rgba(187, 185, 185, 1) 100%
+    );
+    color: white;
+    max-width: 1300px;
+}
+
+.header {
+    color: lightseagreen;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header__nav {
+    font-size: 18px;
+    margin-left: auto;
+    width: max-content;
+}
+
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    border-bottom: 5px solid black;
+}
+
+.main {
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foto1 {
+    margin: 20px 100px 0 0;
+    position: relative;
+    display: inline;
+}
+
+.main__nav {
+    margin-left: auto;
+    line-height: 2.5em;
+}
+
+.main__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main__nav-item {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.main__nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 20px;
+}
+
+div > p {
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+
+div > h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+
+.main__block_size {
+    line-height: 2.5em;
+    padding: 0;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.block_img {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.actors {
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: justify;
+
+}
+
+.main_films {
+    text-decoration: none;
+    text-align-last: center;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    border-bottom: 5px solid black;
+}
+
+.main_name {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: left;
+    font-size: 25px;
+    color: lightseagreen;
+}
+
+.main_name-list {
+    line-height: 3em;
+    font-size: 1em;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+em > i {
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 18px;
+    color: lightblue;
+}
+
+input {
+    width: 580px;
+    border: 3px solid lightseagreen;
+    padding: 6px 0 4px 10px;
+    background: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+.form_label {
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 22px;
+    color: lightseagreen;
+
+}
+
+textarea {
+    border: 3px solid lightseagreen;
+    padding: 6px 0 4px 10px;
+    background: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    width: 150px;
+    border: 3px solid darkslategrey;
+    padding: 6px 6px 6px 6px;
+    background: lightseagreen;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+
+}
+
+.main_head2 {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align-last: auto;
+}
+
+.main__form {
+    border: 3px solid lightseagreen;
+    padding: 6px 0 4px 10px;
+    background: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+legend {
+    color: lightgrey;
+    font-size: 30px;
+}
+
+.form_label_cont {
+    color: lightgrey;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    width: 99%;
+    height: 101px;
+}
